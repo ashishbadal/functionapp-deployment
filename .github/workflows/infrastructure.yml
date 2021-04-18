@@ -14,7 +14,7 @@ env:
   FUNCTION_APP_NAME: myfirstfunctionapp-fa
   LOCATION: westeurope
   RESOURCE_GROUP_NAME: myfirstfunction-rg
-  STORAGE_ACCOUNT_NAME: myfirstfunctionst
+  STORAGE_ACCOUNT_NAME: myfirstfunctionstab
   
 jobs:
   Infrastructure:
