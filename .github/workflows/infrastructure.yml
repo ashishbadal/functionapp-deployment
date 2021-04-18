@@ -17,8 +17,11 @@ env:
   STORAGE_ACCOUNT_NAME: myfirstfunctionstab
   
 jobs:
-  Infrastructure:
+  Infrastructure-Dev:
     runs-on: ubuntu-latest
+    environment: 
+      name: Dev
+      url: "http://dev.ab.com"
     steps:
     - name: Checkout
       uses: actions/checkout@v2
